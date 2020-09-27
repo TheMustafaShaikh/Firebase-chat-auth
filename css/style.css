@@ -1,0 +1,57 @@
+#full {
+    height: 100vh !important;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+#right-side {
+    height: 100vh;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center !important;
+}
+
+#right-side input {
+    margin-top: 2px !important;
+}
+
+#right-side button {
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#left-side {
+    height: 100vh;
+    background-color: #007BFF;
+    color: white;
+    font-weight: bolder;
+    font-size: 23px;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center !important;
+}
+
+.messages {
+    border: 1px solid black;
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #F5F9FD;
+    padding: 8px;
+}
+
+.msg {
+    background-color: #578EC9;
+    padding: 12x;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(34%, 56%, 79%, 0.4);
+    padding-left: 12px;
+}
+
+#send-messages {
+    display: flex !important;
+}
